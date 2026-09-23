@@ -1,12 +1,16 @@
 # 01_MHRP_System_Specification
 
 ## Overview
-MHRP functions as an open-source, community-owned communication infrastructure designed to bypass centralized telecommunication giants and mass-surveillance architectures. It leverages Software Defined Radio (SDR) technology and decentralized mesh networking.
+MHRP functions as an open-source, community-owned communication infrastructure designed to bypass centralized telecommunication giants and mass-surveillance architectures. It leverages Software Defined Radio (SDR) technology to create a decentralized cellular network.
 
 ## Technical Architecture
 * **Micro-Footprint OS:** Hardened Buildroot Linux running entirely in volatile RAM (initramfs) to mitigate physical tampering and provide a secure execution environment.
 * **Custom ECB Board:** Integrates the AX5043 transceiver chip for Sub-GHz full-duplex cellular operation with minimal power consumption.
 * **Zero-Trust Identity:** Bypasses legacy SIM numbers by using a cryptographic hash of your `Curve25519` public key for absolute privacy and anonymity.
+
+> Radio/SDR architecture note: the proposed replacement or alternative SDR architecture is defined in
+> [02_MHRP_SDR_Replacement_Architecture.md](02_MHRP_SDR_Replacement_Architecture.md).
+> That document is a design proposal, not a committed implementation.
 
 ## Connection Hierarchy
 * **Tier 1:** Direct Peer-to-Peer (Native SDR-to-SDR) – Within close range communication without infrastructure.
