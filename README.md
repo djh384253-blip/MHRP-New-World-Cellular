@@ -5,15 +5,25 @@
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ## **Our Origin and Legacy**
-This project is built upon a personal foundation of love, regret, and the pursuit of redemption. To understand the human heart behind the code—and the story of how this project came to exist, please read LEGACY.md.
+This project is built upon a personal foundation of love, regret, and the pursuit of redemption. To understand the human heart behind the code—and the story of how this project came to exist, please see the project history.
 
 ## **The Mission**
 MHRP is an open-source, community-owned communication infrastructure designed to bypass centralized telecommunication giants and mass-surveillance architectures. We believe in sovereign connectivity.
 
 ### **The Regenerative Fund: Why Donate?**
-We are not building a product; we are building a public utility. 100% of community donations go directly toward a **Regenerative Production Fund**, which subsidizes hardware kits for strategic, high-surveillance geographic gaps where privacy and connectivity are most needed.
+We are not building a product; we are building a public utility. 100% of community donations go directly toward a **Regenerative Production Fund**, which subsidizes hardware kits for strategic, high-need areas.
 
 ---
+
+## Documentation
+
+- [01 — MHRP System Specification](01_MHRP_System_Specification.md)
+- [02 — MHRP SDR Replacement Architecture](02_MHRP_SDR_Replacement_Architecture.md) — design proposal only; not an implementation.
+- [03 — MHRP Engineering Master Roadmap](03_MHRP_Engineering_Master_Roadmap.md)
+- [04 — MHRP Theoretical Frameworks](04_MHRP_Theoretical_Frameworks.md)
+- [05 — MHRP Sovereign Boot Image Instructions](05_MHRP_Sovereign_Boot_Image_Instructions.md)
+
+Runtime configuration belongs in `cell_config.cfg` only after an implementation exists. `cell_config.cfg` is not a design-document location.
 
 ## **1. Connection Hierarchy**
 The system treats smartphones as native cellular endpoints that leverage local hardware nodes as independent base stations.
@@ -29,7 +39,7 @@ The system treats smartphones as native cellular endpoints that leverage local h
 * **Zero-Trust Identity:** Bypasses legacy SIM numbers by using a cryptographic hash of your `Curve25519` public key, ensuring absolute anonymity.
 
 ## **3. The Theoretical Foundation (Project Codex)**
-MHRP is built upon a framework where all scientific theories function as valid "plugs" into a larger architecture. Think of communication as the unifying principle connecting all scientific domains—from quantum mechanics to sociology—into one coherent whole.
+MHRP is built upon a framework where all scientific theories function as valid "plugs" into a larger architecture. Think of communication as the unifying principle connecting all scientific domains.
 
 ## **4. Prototyping & Getting Started**
 For full compilation instructions of the custom cellular node boot image, see the guides located in the `firmware/buildroot` directory.
@@ -40,7 +50,7 @@ To build the client application:
 3. Deploy to your mobile device, ensuring the device is configured to scan for the `MCC:999` sovereign cellular identifier.
 
 ## **5. License**
-This project is licensed under the **GNU Affero General Public License v3 (AGPL-3.0)**. We choose this license specifically to ensure that the MHRP network remains free and open for all contributors and users.
+This project is licensed under the **GNU Affero General Public License v3 (AGPL-3.0)**. We choose this license specifically to ensure that the MHRP network remains free and open for all contributors.
 
 ---
 

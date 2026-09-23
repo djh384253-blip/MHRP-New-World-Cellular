@@ -24,3 +24,17 @@ This roadmap outlines the path from initial prototyping to a global, self-sustai
 * Implement a non-profit distribution model where 100% of micro-profits from retail sales fund subsidized hardware kits for strategic geographic gaps.
 * Scale the network organically through community-driven deployment.
 * Establish partnerships with privacy advocates and resilience-focused communities.
+
+## SDR Replacement Architecture Workstream
+
+- Design governed by [02_MHRP_SDR_Replacement_Architecture.md](02_MHRP_SDR_Replacement_Architecture.md).
+- The prototype phases in that document are proposals only until reviewed.
+- Do not add implementation milestones until the open questions in Section 17 are resolved and the design is approved.
+- After approval, add implementation milestones for hardware, RF/baseband, modem, security, testing, and migration.
+
+### Review-Gated Checklist
+
+- [ ] Draft and review `02_MHRP_SDR_Replacement_Architecture.md`
+- [ ] Resolve open technical, legal, regulatory, safety, and security questions
+- [ ] Approve prototype phase gates
+- [ ] Add implementation milestones to this roadmap only after design approval
